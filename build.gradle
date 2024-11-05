@@ -1,0 +1,22 @@
+buildscript {
+    ext.kotlin_version = "1.3.72" // หรือ 1.3.72
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.3"
+        // หรือเวอร์ชันที่ใช้งานได้กับโปรเจกต์ของคุณ
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
+    }
+}
+
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}

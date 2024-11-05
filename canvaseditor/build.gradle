@@ -60,8 +60,8 @@ ext {
     allLicenses = ["Apache-2.0"]    // array of licenses, for example, ["Apache-2.0"]
 }
 
-apply from: 'install.gradle'
-apply from: 'bintray.gradle'
+//apply from: 'install.gradle'
+//apply from: 'bintray.gradle'
 
 //commands
 //  ./gradlew install
